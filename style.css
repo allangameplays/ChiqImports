@@ -1,0 +1,241 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* Cart Container */
+.cart-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.cart-table th, .cart-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.cart-table th {
+    background-color: #f4f4f4;
+}
+
+input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    text-align: center;
+}
+
+/* Hover Effects for Table Rows */
+.cart-table tr {
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.cart-table tr:hover {
+    background-color: #f0f8ff; /* Cor de fundo quando o cursor está sobre a linha */
+    transform: scale(1.02); /* Aumenta um pouco o tamanho da linha */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra */
+}
+
+.remove-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.remove-btn:hover {
+    background-color: #c82333;
+}
+
+.cart-summary {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.address-info {
+    margin-bottom: 20px;
+}
+
+.address-info label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.address-info input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.checkout-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.checkout-btn:hover {
+    background-color: #218838;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    width: 20%;
+    transition: transform 0.3s;
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product button:hover {
+    background-color: #218838;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    flex: 1;
+}
+
+.contact-info {
+    align-items: flex-start;
+    text-align: left;
+    flex: 1;
+}
+
+.social-media {
+    align-items: flex-end;
+    text-align: right;
+    flex: 1;
+}
+
+.footer-btn {
+    display: inline-flex;
+    align-items: center;
+    background-color: #218838;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+    font-size: 20px; /* Ajuste o tamanho do ícone conforme necessário */
+}
+
+.footer-btn i {
+    font-size: 20px; /* Tamanho do ícone */
+}
+
+.footer-btn:hover {
+    background-color: #0056b3;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
